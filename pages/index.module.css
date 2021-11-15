@@ -1,0 +1,160 @@
+.form {
+    color: #fff;    
+    margin: 300px auto;
+    width: 1000px;
+}
+
+.email {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.email input {
+    width: 450px;
+    height: 50px;
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 10px;
+    background-color: rgb(83, 83, 83);
+    color: #fff;
+}
+
+.email input:hover {
+    transform: scale(110%);
+    transition: all 0.3s ease-in;
+}
+
+.password {
+    padding-top: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.password input{
+    width: 450px;
+    height: 50px;
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 10px;
+    background-color: rgb(83, 83, 83);
+    color: #fff;
+}
+
+.form h1{
+    margin-top: -150px;
+    margin-bottom: 40px;
+    font-size: 80px;
+    text-align: center;
+}
+
+.form h6{
+    margin: 40px auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.password input:hover{
+    transform: scale(110%);
+    transition: all 0.3s ease-in;
+}
+
+.button {
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.button button{
+    cursor: pointer;
+    width: 450px;
+    height: 50px;
+    border: 1px solid rgb(10,6,89);
+    border-radius: 10px;
+    background: rgb(10,6,89);
+    background: linear-gradient(90deg, rgb(15, 10, 107) 0%, rgba(21,21,147,1) 35%, rgba(55,55,182,1) 57%, rgba(0,212,255,1) 100%);
+    color: rgb(255, 255, 255);
+}
+
+.button button:hover{
+    transform: scale(110%);
+    transition: all 0.3s ease-in;
+}
+
+.remember {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.remember input{
+    position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 50;
+  width: 50;
+  left: 38.2%;
+  
+}
+
+.remember span{
+    padding-left: 120px;
+    color: rgb(0,212,255,1);
+    cursor: pointer;
+}
+
+.remember p{
+    margin-top: -2.2%;
+    margin-left: 27.7%;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(83, 83, 83);
+}
+.remember p:hover{
+    background-color: rgb(175, 175, 175);
+}
+
+.remember input:checked ~ p{
+    background-color: rgb(55,55,182,1);
+}
+
+.b1 {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-color: rgba(0,212,255,1);
+    opacity: 0.6;
+    top: 2%;
+    right: 3%;
+}
+
+.b2 {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: rgba(55,55,182,1);
+    opacity: 0.6;
+    top: 35%;
+    right: 15%;
+}
+
+.b3 {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: rgb(118, 113, 201);
+    opacity: 0.5;
+    top: 30%;
+    right: 65%;
+}
+
+.b4 {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: rgb(107, 183, 245);
+    opacity: 0.5;
+    top: 20%;
+    right: 75%;
+}
